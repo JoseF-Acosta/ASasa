@@ -1,0 +1,120 @@
+body{
+    height: 0;
+    background-color: rgb(199, 199, 199);
+}
+
+.padre{
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cajas{
+
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+.Fondo{
+    background-color: rgb(209, 209, 209);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-left: 40px;
+    margin-top: 20px;
+
+    justify-self: center;
+}
+
+.texto{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: grey;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.PrimerTex{
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.precio3{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aqua;
+    text-align: center;
+}
+
+.precio2{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    color: red;
+    text-align: center;
+}
+
+.precio1{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    color: yellow;
+    text-align: center;
+}
+
+.valora{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.boton{
+    height: 60px;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(184, 184, 202);
+    align-items: center;
+}
+
+#boton{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
