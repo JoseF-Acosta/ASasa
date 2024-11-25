@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
 body{
     height: 0;
     background-color: rgb(199, 199, 199);
@@ -8,23 +16,44 @@ body{
     gap: 40px;
     align-items: flex-end;
     justify-content: center;
+    margin-top: 30px
 }
 
 .cajas{
 
     width: 300px;
-    height: 600px;
+    height: 560px;
     background-color: white;
-    border-radius: 10px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+
 }
 
 
 
 img{
     width: 100%;
+    
+}
+
+#T-shirt{
+    width: 250px;
+    height: 260px;
+    margin-left: -25px;
+    margin-top: -20px;
+}
+
+#Reloj{
+    width: 250px;
+    height: 250px;
+    margin-left: -25px;
+    margin-top: -20px;
+}
+
+
+#traviss{
+    width: 300px;
+    height: 230px;
+    margin-left: -50px;
+    margin-top: -20px;
 }
 
 .Fondo{
@@ -34,59 +63,57 @@ img{
     display: flex;
     border-left: 40px;
     margin-top: 20px;
-
     justify-self: center;
 }
 
 .texto{
-    justify-content: center;
-    display: flex;
-    align-items: center;
+
+ 
     color: grey;
     text-align: center;
     margin-top: 40px;
+
 }
 
 .PrimerTex{
-    justify-content: center;
+
     margin-top: 40px;
-    display: flex;
-    align-items: center;
+    font-weight: 500;
     color: black;
     text-align: center;
+    font-size: 22px;
 }
 
 .precio3{
-    margin-top: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    color: aqua;
+    margin-top: 30px;
+
+    color: rgb(129, 129, 216);
     text-align: center;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .precio2{
-    justify-content: center;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-    color: red;
+
+    margin-top: 30px;
+    color: rgba(0, 128, 0, 0.699);
     text-align: center;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .precio1{
-    justify-content: center;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-    color: yellow;
+    margin-top: 30px;
+    color: black;
     text-align: center;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .valora{
     justify-content: center;
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     align-items: center;
     text-align: center;
 }
@@ -102,19 +129,41 @@ img{
     align-items: center;
 }
 
-#boton{
-    
+#boton3{
+    background-color: rgb(129, 129, 216);
+    color: white;
 }
 
+#boton2{
+    background-color: rgba(0, 128, 0, 0.699);
+    color: white;
+}
 
+#boton1{
+    background-color: black;
+    color: white;
+}
 
+.cajas:hover .precio1{ 
+    color: grey;
+}
 
+.cajas:hover #boton1{ 
+    background-color: grey;
+}
 
+.cajas:hover .precio2{ 
+    color: grey;
+}
 
+.cajas:hover #boton2{ 
+    background-color: grey;
+}
 
+.cajas:hover .precio3{ 
+    color: grey;
+}
 
-
-
-
-
-
+.cajas:hover #boton3{ 
+    background-color: grey;
+}
