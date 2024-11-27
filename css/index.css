@@ -167,3 +167,13 @@ img{
 .cajas:hover #boton3{ 
     background-color: grey;
 }
+
+@media screen and (max-width:768px){
+.padre{
+   display: flex; 
+   justify-content: center;
+   flex-direction: column;
+}
+    
+}
+
